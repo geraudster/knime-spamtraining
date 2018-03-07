@@ -16,10 +16,11 @@
 <entry key="0" type="xstring" value="Document"/>
 </config>
 <config key="ExclList">
-<entry key="array-size" type="xint" value="3"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="Term"/>
-<entry key="1" type="xstring" value="TF abs"/>
-<entry key="2" type="xstring" value="Term as String"/>
+<entry key="1" type="xstring" value="DF"/>
+<entry key="2" type="xstring" value="TF abs"/>
+<entry key="3" type="xstring" value="Term as String"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
@@ -33,11 +34,21 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="enableHilite" type="xboolean" value="false"/>
+<config key="valueDelimiter_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="valueDelimiter" type="xstring" value=", "/>
 <config key="sortInMemory_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="sortInMemory" type="xboolean" value="false"/>
+<config key="columnNamePolicy_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
 <config key="aggregationColumn">
 <config key="columnNames">
 <entry key="array-size" type="xint" value="1"/>
@@ -62,11 +73,6 @@
 <config key="aggregationOperatorSettings"/>
 <config key="patternAggregators"/>
 <config key="dataTypeAggregators"/>
-<config key="columnNamePolicy_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
 <config key="retainOrder_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -77,11 +83,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="inMemory" type="xboolean" value="false"/>
-<config key="valueDelimiter_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="valueDelimiter" type="xstring" value=", "/>
 <config key="nodeVersion_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -97,10 +98,11 @@
 <entry key="0" type="xstring" value="Term as String"/>
 </config>
 <config key="ExclList">
-<entry key="array-size" type="xint" value="3"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="Term"/>
 <entry key="1" type="xstring" value="Document"/>
-<entry key="2" type="xstring" value="TF abs"/>
+<entry key="2" type="xstring" value="DF"/>
+<entry key="3" type="xstring" value="TF abs"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>

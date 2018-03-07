@@ -6,18 +6,13 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="inexclude_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="inexclude" type="xstring" value="Include rows from reference table"/>
 <config key="dataTableColumn_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="dataTableColumn">
 <entry key="useRowID" type="xboolean" value="false"/>
-<entry key="columnName" type="xstring" value="Term as String"/>
+<entry key="columnName" type="xstring" value="Term"/>
 </config>
 <config key="referenceTableColumn_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -25,8 +20,13 @@
 </config>
 <config key="referenceTableColumn">
 <entry key="useRowID" type="xboolean" value="false"/>
-<entry key="columnName" type="xstring" value="Term as String"/>
+<entry key="columnName" type="xstring" value="Term"/>
 </config>
+<config key="inexclude_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inexclude" type="xstring" value="Include rows from reference table"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>

@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="geraud"/>
 <entry key="authored-when" type="xstring" value="2016-04-26 09:52:39 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="geraud"/>
-<entry key="lastEdited-when" type="xstring" value="2018-03-07 17:19:35 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2018-03-07 23:37:52 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -57,6 +57,22 @@
 <entry key="0" type="xint" value="184"/>
 <entry key="1" type="xint" value="198"/>
 <entry key="2" type="xint" value="80"/>
+<entry key="3" type="xint" value="70"/>
+</config>
+</config>
+</config>
+<config key="node_61">
+<entry key="id" type="xint" value="61"/>
+<entry key="node_settings_file" type="xstring" value="Machine Lear (#61)/workflow.knime"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="MetaNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="504"/>
+<entry key="1" type="xint" value="197"/>
+<entry key="2" type="xint" value="136"/>
 <entry key="3" type="xint" value="70"/>
 </config>
 </config>
