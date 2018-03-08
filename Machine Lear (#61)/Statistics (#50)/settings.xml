@@ -111,7 +111,7 @@
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Statistics"/>
 <entry key="hasContent" type="xboolean" value="false"/>

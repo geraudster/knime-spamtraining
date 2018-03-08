@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="directory"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/geraud/./spams_and_hams/"/>
+<entry key="value" type="xstring" value="file:/home/geraud/projects/./spams_and_hams/"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -47,6 +47,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8af8ad04-aa9a-4d11-ba0b-1c998102c0ed"/>
+<entry key="file_store_id" type="xstring" value="5ca901c3-230b-4add-98ba-ea625c726b7d"/>
 </config>
 </config>

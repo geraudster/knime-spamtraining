@@ -6,21 +6,11 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="MethodSetting_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<config key="inplace_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="MethodSetting" type="xstring" value="Mean +- SD"/>
-<config key="FactorSetting_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="FactorSetting" type="xdouble" value="3.0"/>
-<config key="GroupingSetting_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="GroupingSetting" type="xstring" value="label"/>
+<entry key="inplace" type="xboolean" value="false"/>
 <config key="readouts_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -66,11 +56,31 @@
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
+<config key="group.wells.by_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="group.wells.by" type="xstring" value="barcode"/>
+<config key="MethodSetting_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="MethodSetting" type="xstring" value="Mean +- SD"/>
 <config key="Rule_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Rule" type="xboolean" value="false"/>
+<config key="FactorSetting_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="FactorSetting" type="xdouble" value="3.0"/>
+<config key="GroupingSetting_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="GroupingSetting" type="xstring" value="label"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>

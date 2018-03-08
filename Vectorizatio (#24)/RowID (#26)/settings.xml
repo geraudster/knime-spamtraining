@@ -31,11 +31,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="replaceMissingValues" type="xboolean" value="false"/>
-<config key="enableHilite_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="enableHilite" type="xboolean" value="false"/>
 <config key="appendRowKeyCol_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -46,6 +41,11 @@
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="newColumnName4RowKeyValues" type="xstring" value=""/>
+<config key="enableHilite_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableHilite" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -54,11 +54,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="RowID"/>
 <entry key="hasContent" type="xboolean" value="false"/>

@@ -47,11 +47,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Data Generation"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.datageneration"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.0.v201702101156"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100923"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Data Generation"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.datageneration.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.0.v201702101156"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100923"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Random Label Assigner"/>
 <entry key="hasContent" type="xboolean" value="false"/>

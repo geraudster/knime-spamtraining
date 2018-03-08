@@ -6,36 +6,41 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="AppendOriginalDocuments_Internals">
+<config key="inclProbVals_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="AppendOriginalDocuments" type="xboolean" value="false"/>
-<config key="OriginalDocumentColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="OriginalDocumentColumn" type="xstring" value="Orig Document"/>
-<config key="DocumentColumn_Internals">
+<entry key="inclProbVals" type="xboolean" value="false"/>
+<config key="prediction column name_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="DocumentColumn" type="xstring" value="Document"/>
+<entry key="prediction column name" type="xstring" value="Prediction ()"/>
+<config key="change prediction_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="change prediction" type="xboolean" value="false"/>
+<config key="class probability suffix_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="class probability suffix" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.transformation.bow.BagOfWordsNodeFactory"/>
-<entry key="node-name" type="xstring" value="Bag of Words Creator"/>
-<entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.textprocessing"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.mine.bayes.naivebayes.predictor3.NaiveBayesPredictorNodeFactory2"/>
+<entry key="node-name" type="xstring" value="Naive Bayes Predictor"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709090838"/>
-<entry key="node-feature-name" type="xstring" value="KNIME Textprocessing"/>
-<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.textprocessing.feature.group"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709090838"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Bag of Words Creator"/>
+<entry key="name" type="xstring" value="Naive Bayes Predictor"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -43,12 +48,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 812001, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2000, Cols: 202"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2ba8eef0-49a1-4bbf-ac6b-ba0f0c428ab5"/>
+<entry key="file_store_id" type="xstring" value="8121b2ce-817a-47f9-adaf-01bfda8cbab5"/>
 </config>
 </config>

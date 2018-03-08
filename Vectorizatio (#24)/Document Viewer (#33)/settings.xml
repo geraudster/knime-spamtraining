@@ -19,11 +19,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.textprocessing"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709090838"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201710091239"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Textprocessing"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.textprocessing.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709090838"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201710091239"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Document Viewer"/>
 <entry key="hasContent" type="xboolean" value="false"/>
