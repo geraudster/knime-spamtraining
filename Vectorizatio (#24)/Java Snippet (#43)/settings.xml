@@ -8,21 +8,21 @@
 <config key="model">
 <entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010"/>
 <entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010"/>
-<entry key="scriptBody" type="xstring" value="// Enter your code here:%%00010%%00010%%00009%%00009%%00010out_new_row_id = c_Document.replaceAll(&quot;\&quot;&quot;, &quot;&quot;);%%00010out_new_row_id = out_new_row_id.replaceAll(&quot;row&quot;, &quot;Row&quot;);%%00010"/>
+<entry key="scriptBody" type="xstring" value="// Enter your code here:%%00010%%00010%%00009%%00009%%00010out_length = c_text.length();%%00010%%00010"/>
 <config key="jarFiles">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="outCols">
 <entry key="array-size" type="xint" value="1"/>
 <config key="0">
-<entry key="Name" type="xstring" value="new_row_id"/>
-<entry key="JavaName" type="xstring" value="out_new_row_id"/>
-<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Name" type="xstring" value="length"/>
+<entry key="JavaName" type="xstring" value="out_length"/>
+<entry key="JavaType" type="xstring" value="java.lang.Integer"/>
 <config key="Type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <entry key="is_null" type="xboolean" value="false"/>
 </config>
-<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
 <entry key="replaceExisting" type="xboolean" value="false"/>
 </config>
 </config>
@@ -32,14 +32,14 @@
 <config key="inCols">
 <entry key="array-size" type="xint" value="1"/>
 <config key="0">
-<entry key="Name" type="xstring" value="Document"/>
-<entry key="JavaName" type="xstring" value="c_Document"/>
+<entry key="Name" type="xstring" value="text"/>
+<entry key="JavaName" type="xstring" value="c_text"/>
 <entry key="JavaType" type="xstring" value="java.lang.String"/>
 <config key="Type">
-<entry key="cell_class" type="xstring" value="org.knime.ext.textprocessing.data.filestore.DocumentBufferedFileStoreCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <entry key="is_null" type="xboolean" value="false"/>
 </config>
-<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DataValue,class java.lang.String,String (toString()))"/>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(StringValue,class java.lang.String,String)"/>
 </config>
 </config>
 <config key="inVars">
@@ -50,7 +50,7 @@
 <entry key="runOnExecute" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.jsnippet.JavaSnippetNodeFactory"/>
 <entry key="node-name" type="xstring" value="Java Snippet"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>

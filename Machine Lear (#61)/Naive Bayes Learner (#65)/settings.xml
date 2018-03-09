@@ -11,26 +11,26 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="classifyColumn" type="xstring" value="label"/>
-<config key="threshold_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="threshold" type="xdouble" value="0.0"/>
-<config key="maxNoOfNomVals_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="maxNoOfNomVals" type="xint" value="20"/>
 <config key="skipMissingVals_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="skipMissingVals" type="xboolean" value="false"/>
+<config key="maxNoOfNomVals_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="maxNoOfNomVals" type="xint" value="20"/>
 <config key="compatiblePMML_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="compatiblePMML" type="xboolean" value="false"/>
+<config key="threshold_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="threshold" type="xdouble" value="0.0"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -62,12 +62,12 @@
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 402, Cols: 7"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 62, Cols: 7"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="9ec0e83c-f421-432f-9b49-dfeb8f63f53b"/>
+<entry key="file_store_id" type="xstring" value="bf7a890c-4389-460e-941d-029a91e8c49e"/>
 </config>
 </config>

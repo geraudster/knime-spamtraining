@@ -10,42 +10,41 @@
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
 <entry key="array-size" type="xint" value="31"/>
-<entry key="0" type="xstring" value="label"/>
-<entry key="1" type="xstring" value="subject+Sum(TF abs)"/>
-<entry key="2" type="xstring" value="000+Sum(TF abs)"/>
-<entry key="3" type="xstring" value="corp+Sum(TF abs)"/>
-<entry key="4" type="xstring" value="ect+Sum(TF abs)"/>
-<entry key="5" type="xstring" value="enron+Sum(TF abs)"/>
-<entry key="6" type="xstring" value="gas+Sum(TF abs)"/>
-<entry key="7" type="xstring" value="hou+Sum(TF abs)"/>
-<entry key="8" type="xstring" value="inc+Sum(TF abs)"/>
-<entry key="9" type="xstring" value="mail+Sum(TF abs)"/>
-<entry key="10" type="xstring" value="please+Sum(TF abs)"/>
-<entry key="11" type="xstring" value="thanks+Sum(TF abs)"/>
-<entry key="12" type="xstring" value="time+Sum(TF abs)"/>
-<entry key="13" type="xstring" value="2000+Sum(TF abs)"/>
-<entry key="14" type="xstring" value="email+Sum(TF abs)"/>
-<entry key="15" type="xstring" value="com+Sum(TF abs)"/>
-<entry key="16" type="xstring" value="company+Sum(TF abs)"/>
-<entry key="17" type="xstring" value="business+Sum(TF abs)"/>
-<entry key="18" type="xstring" value="price+Sum(TF abs)"/>
-<entry key="19" type="xstring" value="information+Sum(TF abs)"/>
-<entry key="20" type="xstring" value="http+Sum(TF abs)"/>
-<entry key="21" type="xstring" value="www+Sum(TF abs)"/>
-<entry key="22" type="xstring" value="message+Sum(TF abs)"/>
-<entry key="23" type="xstring" value="energy+Sum(TF abs)"/>
-<entry key="24" type="xstring" value="market+Sum(TF abs)"/>
-<entry key="25" type="xstring" value="report+Sum(TF abs)"/>
-<entry key="26" type="xstring" value="stock+Sum(TF abs)"/>
-<entry key="27" type="xstring" value="vince+Sum(TF abs)"/>
-<entry key="28" type="xstring" value="deal+Sum(TF abs)"/>
-<entry key="29" type="xstring" value="2001+Sum(TF abs)"/>
-<entry key="30" type="xstring" value="power+Sum(TF abs)"/>
+<entry key="0" type="xstring" value="enron"/>
+<entry key="1" type="xstring" value="subject"/>
+<entry key="2" type="xstring" value="will"/>
+<entry key="3" type="xstring" value="ect"/>
+<entry key="4" type="xstring" value="compani"/>
+<entry key="5" type="xstring" value="com"/>
+<entry key="6" type="xstring" value="pleas"/>
+<entry key="7" type="xstring" value="can"/>
+<entry key="8" type="xstring" value="hou"/>
+<entry key="9" type="xstring" value="new"/>
+<entry key="10" type="xstring" value="X2001"/>
+<entry key="11" type="xstring" value="time"/>
+<entry key="12" type="xstring" value="price"/>
+<entry key="13" type="xstring" value="market"/>
+<entry key="14" type="xstring" value="inform"/>
+<entry key="15" type="xstring" value="X2000"/>
+<entry key="16" type="xstring" value="busi"/>
+<entry key="17" type="xstring" value="get"/>
+<entry key="18" type="xstring" value="may"/>
+<entry key="19" type="xstring" value="need"/>
+<entry key="20" type="xstring" value="report"/>
+<entry key="21" type="xstring" value="one"/>
+<entry key="22" type="xstring" value="thank"/>
+<entry key="23" type="xstring" value="energi"/>
+<entry key="24" type="xstring" value="gas"/>
+<entry key="25" type="xstring" value="year"/>
+<entry key="26" type="xstring" value="mail"/>
+<entry key="27" type="xstring" value="http"/>
+<entry key="28" type="xstring" value="trade"/>
+<entry key="29" type="xstring" value="email"/>
+<entry key="30" type="xstring" value="label"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="Document"/>
-<entry key="1" type="xstring" value="new_row_id"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="full_text"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -61,13 +60,12 @@
 <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-<entry key="org.knime.ext.textprocessing.data.DocumentValue" type="xboolean" value="false"/>
 </config>
 </config>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -80,16 +78,19 @@
 <entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 10000, Cols: 31"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="853765ba-e440-45da-a974-8ab95ca2b674"/>
 </config>
 </config>
