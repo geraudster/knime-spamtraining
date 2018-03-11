@@ -75,7 +75,7 @@
 <entry key="maxSize" type="xint" value="10"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.erlwood.knime.nodes.graph.NGraphNodeFactory"/>
 <entry key="node-name" type="xstring" value="2D/3D Scatterplot"/>
 <entry key="node-bundle-name" type="xstring" value="Erlwood Knime Open Source Core"/>
@@ -88,11 +88,11 @@
 <entry key="node-feature-version" type="xstring" value="3.3.0.v201701271222"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="2D/3D Scatterplot"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="a6958cae-cb65-4c59-9713-398b26b3277b"/>
 </config>
 </config>

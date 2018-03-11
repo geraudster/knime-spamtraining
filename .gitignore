@@ -20,3 +20,5 @@ internalTables/
 *.rar
 *.tar
 *.zip
+
+hs_err*.log

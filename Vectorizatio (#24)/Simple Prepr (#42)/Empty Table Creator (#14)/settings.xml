@@ -6,41 +6,42 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="inclProbVals_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<config key="cfg_skip_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="inclProbVals" type="xboolean" value="false"/>
-<config key="prediction column name_Internals">
+<entry key="cfg_skip" type="xint" value="10"/>
+<config key="cfg_nr_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="cfg_nr" type="xint" value="3000"/>
+<config key="CFG_SEED_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_long_disact"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_SEED" type="xlong" value="1520621372364"/>
+<entry key="CFG_SEED_BOOL" type="xboolean" value="true"/>
+<config key="cfg_prefix_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="prediction column name" type="xstring" value="Prediction ()"/>
-<config key="change prediction_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="change prediction" type="xboolean" value="false"/>
-<config key="class probability suffix_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="class probability suffix" type="xstring" value=""/>
+<entry key="cfg_prefix" type="xstring" value="Row"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.mine.bayes.naivebayes.predictor3.NaiveBayesPredictorNodeFactory2"/>
-<entry key="node-name" type="xstring" value="Naive Bayes Predictor"/>
-<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="factory" type="xstring" value="org.knime.datageneration.emptyfilecreato.EmptyFileCreatorNodeFactory"/>
+<entry key="node-name" type="xstring" value="Empty Table Creator"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Data Generation"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.datageneration"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070950"/>
-<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
-<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.0.v201702101156"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Data Generation"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.datageneration.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-feature-version" type="xstring" value="3.4.0.v201702101156"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Naive Bayes Predictor"/>
+<entry key="name" type="xstring" value="Empty Table Creator"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -48,12 +49,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 6744, Cols: 32"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 3000, Cols: 0"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="136d603b-41ef-4ab4-93fa-a665a7237721"/>
+<entry key="file_store_id" type="xstring" value="14a94bad-22cd-4371-a05f-5e65549657ac"/>
 </config>
 </config>

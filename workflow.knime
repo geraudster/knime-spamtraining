@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
-<entry key="created_by" type="xstring" value="3.4.2.v201711100944"/>
+<entry key="created_by" type="xstring" value="3.4.1.v201709070950"/>
 <entry key="version" type="xstring" value="3.1.0"/>
 <entry key="name" type="xstring" isnull="true" value=""/>
 <config key="authorInformation">
 <entry key="authored-by" type="xstring" value="geraud"/>
 <entry key="authored-when" type="xstring" value="2016-04-26 09:52:39 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="geraud"/>
-<entry key="lastEdited-when" type="xstring" value="2018-03-09 16:21:33 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2018-03-09 20:16:32 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <config key="workflow_credentials"/>
 <config key="annotations">
 <config key="annotation_0">
@@ -41,7 +41,7 @@
 <entry key="0" type="xint" value="344"/>
 <entry key="1" type="xint" value="197"/>
 <entry key="2" type="xint" value="101"/>
-<entry key="3" type="xint" value="67"/>
+<entry key="3" type="xint" value="70"/>
 </config>
 </config>
 </config>
@@ -57,7 +57,7 @@
 <entry key="0" type="xint" value="184"/>
 <entry key="1" type="xint" value="198"/>
 <entry key="2" type="xint" value="80"/>
-<entry key="3" type="xint" value="67"/>
+<entry key="3" type="xint" value="70"/>
 </config>
 </config>
 </config>
@@ -72,8 +72,8 @@
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="504"/>
 <entry key="1" type="xint" value="197"/>
-<entry key="2" type="xint" value="137"/>
-<entry key="3" type="xint" value="67"/>
+<entry key="2" type="xint" value="136"/>
+<entry key="3" type="xint" value="70"/>
 </config>
 </config>
 </config>

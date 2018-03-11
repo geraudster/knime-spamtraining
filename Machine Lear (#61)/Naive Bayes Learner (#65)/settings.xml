@@ -39,11 +39,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070950"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070950"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Naive Bayes Learner"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -68,6 +68,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="bf7a890c-4389-460e-941d-029a91e8c49e"/>
+<entry key="file_store_id" type="xstring" value="e02917e9-70b0-4a36-b3fe-285d8adda2f5"/>
 </config>
 </config>
