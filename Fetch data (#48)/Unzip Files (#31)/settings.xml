@@ -10,12 +10,12 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="source" type="xstring" value="file:/home/geraud/data/enron1.tar.gz"/>
+<entry key="source" type="xstring" value="file:/home/geraud/knime-workspace/knime-spamtraining/data/download/enron1.tar.gz"/>
 <config key="targetdirectory_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="targetdirectory" type="xstring" value="data_extracted"/>
+<entry key="targetdirectory" type="xstring" value="knime://knime.workflow/data/extracted"/>
 <config key="output_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>

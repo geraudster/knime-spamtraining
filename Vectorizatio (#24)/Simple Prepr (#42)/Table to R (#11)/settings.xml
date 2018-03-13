@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="script" type="xstring" value="emails &lt;- knime.in%%00010%%00010library(tm)%%00010library(SnowballC)%%00010%%00010emailCorpus &lt;- Corpus(VectorSource(emails$text), readerControl = list(language = 'en'))%%00010%%00010emailCorpus &lt;- tm_map(emailCorpus, tolower)%%00010emailCorpus &lt;- tm_map(emailCorpus, stripWhitespace)%%00010emailCorpus &lt;- tm_map(emailCorpus, removePunctuation)%%00010emailCorpus &lt;- tm_map(emailCorpus, removeWords, stopwords(&quot;english&quot;))%%00010emailCorpus &lt;- tm_map(emailCorpus, stemDocument)%%00010%%00010dtm &lt;- DocumentTermMatrix(emailCorpus)%%00010dtm%%00010%%00010dtmWithoutSparseTerms &lt;- removeSparseTerms(dtm, 0.95)%%00010dtmWithoutSparseTerms%%00010%%00010emailsDf &lt;- as.data.frame(as.matrix(dtmWithoutSparseTerms))%%00010colnames(emailsDf) &lt;- make.names(colnames(emailsDf))%%00010%%00010v &lt;- sort(colSums(emailsDf), decreasing=TRUE)%%00010head(names(v), 30)%%00010%%00010emailsTopTerms &lt;- emailsDf[, head(names(v),30)]%%00010%%00010emailsTopTerms$label &lt;- emails$label%%00010emailsTopTerms$full_text &lt;- emails$text%%00010%%00010emailsTopTerms%%00010"/>
+<entry key="script" type="xstring" value="emails &lt;- knime.in%%00010%%00010library(tm)%%00010library(SnowballC)%%00010%%00010emailCorpus &lt;- Corpus(VectorSource(emails$text), readerControl = list(language = 'en'))%%00010%%00010emailCorpus &lt;- tm_map(emailCorpus, tolower)%%00010emailCorpus &lt;- tm_map(emailCorpus, stripWhitespace)%%00010emailCorpus &lt;- tm_map(emailCorpus, removePunctuation)%%00010emailCorpus &lt;- tm_map(emailCorpus, removeWords, stopwords(&quot;english&quot;))%%00010emailCorpus &lt;- tm_map(emailCorpus, stemDocument)%%00010%%00010dtm &lt;- DocumentTermMatrix(emailCorpus)%%00010%%00010dtmWithoutSparseTerms &lt;- removeSparseTerms(dtm, 0.95)%%00010%%00010emailsDf &lt;- as.data.frame(as.matrix(dtmWithoutSparseTerms))%%00010colnames(emailsDf) &lt;- make.names(colnames(emailsDf))%%00010%%00010v &lt;- sort(colSums(emailsDf), decreasing=TRUE)%%00010%%00010emailsTopTerms &lt;- emailsDf[, head(names(v),30)]%%00010%%00010emailsTopTerms$label &lt;- emails$label%%00010emailsTopTerms$full_text &lt;- emails$text%%00010%%00010emailsTopTerms%%00010"/>
 <entry key="templateUUID" type="xstring" isnull="true" value=""/>
 <entry key="version" type="xstring" value="version 1.x"/>
 <entry key="Output non numbers (NaN, Inf, -Inf) as missing cells" type="xboolean" value="false"/>
@@ -43,6 +43,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="75b6be18-9222-420e-bf54-9fda34c2a33c"/>
+<entry key="file_store_id" type="xstring" value="8bffe59d-56b2-44f6-ba81-e3f31e3757b9"/>
 </config>
 </config>

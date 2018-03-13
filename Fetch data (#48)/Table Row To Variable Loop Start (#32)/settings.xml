@@ -60,7 +60,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="URI"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/geraud/projects/data/enron6.tar.gz"/>
+<entry key="value" type="xstring" value="file:/home/geraud/knime-workspace/knime-spamtraining/data/download/enron6.tar.gz"/>
 </config>
 <config key="Variable_11">
 <entry key="type" type="xstring" value="variable"/>
@@ -135,6 +135,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2fc7cb38-4d7e-4f47-b2c9-63123ddc2cd2"/>
+<entry key="file_store_id" type="xstring" value="a9063965-4758-4fb6-9da7-df5a45e37ee3"/>
 </config>
 </config>

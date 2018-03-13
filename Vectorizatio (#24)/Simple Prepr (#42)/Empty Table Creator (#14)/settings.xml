@@ -35,11 +35,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Data Generation"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.datageneration"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.0.v201702101156"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100923"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Data Generation"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.datageneration.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.0.v201702101156"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100923"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Empty Table Creator"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -55,6 +55,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="14a94bad-22cd-4371-a05f-5e65549657ac"/>
+<entry key="file_store_id" type="xstring" value="306c6ea2-34eb-49ee-95ab-a280c6d9cd59"/>
 </config>
 </config>

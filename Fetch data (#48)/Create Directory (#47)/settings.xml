@@ -6,14 +6,14 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="directory"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/geraud/projects/./spams_and_hams/"/>
+<entry key="value" type="xstring" value="file:/home/geraud/knime-workspace/knime-spamtraining/data/spams_and_hams/"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="target" type="xstring" value="."/>
+<entry key="target" type="xstring" value="knime://knime.workflow/data"/>
 <entry key="name" type="xstring" value="spams_and_hams"/>
 <entry key="abortifexists" type="xboolean" value="false"/>
 <entry key="variablename" type="xstring" value="directory"/>
@@ -47,6 +47,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="5ca901c3-230b-4add-98ba-ea625c726b7d"/>
+<entry key="file_store_id" type="xstring" value="d8b1f7b6-1c94-4c60-9164-3a1bfa0e97ef"/>
 </config>
 </config>

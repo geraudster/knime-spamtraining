@@ -7,7 +7,7 @@
 </config>
 <config key="model">
 <entry key="method" type="xstring" value="Relative"/>
-<entry key="samplingMethod" type="xstring" value="Random"/>
+<entry key="samplingMethod" type="xstring" value="Stratified"/>
 <entry key="fraction" type="xdouble" value="1.0"/>
 <entry key="count" type="xint" value="100"/>
 <entry key="random_seed" type="xstring" isnull="true" value=""/>
@@ -20,11 +20,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Partitioning"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -34,7 +34,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 33716, Cols: 45"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 10000, Cols: 45"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
@@ -47,6 +47,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="c4fcbfe4-b69f-44df-963b-4e30b1252926"/>
+<entry key="file_store_id" type="xstring" value="b501e647-b801-4f51-a8d6-b1fef2415c92"/>
 </config>
 </config>

@@ -54,7 +54,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Location"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/geraud/projects/data_extracted/enron6/Summary.txt"/>
+<entry key="value" type="xstring" value="file:/home/geraud/knime-workspace/knime-spamtraining/data/extracted/enron6/Summary.txt"/>
 </config>
 <config key="Variable_10">
 <entry key="type" type="xstring" value="variable"/>
@@ -77,20 +77,20 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="CFG_FAILONMISS" type="xstring" value="Use Defaults"/>
-<config key="CFG_Integer_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="CFG_Integer" type="xint" value="0"/>
+<entry key="CFG_FAILONMISS" type="xstring" value="Fail"/>
 <config key="CFG_Double_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="CFG_Double" type="xdouble" value="0.0"/>
+<config key="CFG_Integer_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="CFG_Integer" type="xint" value="0"/>
 <config key="CFG_String_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="CFG_String" type="xstring" value="missing"/>
 </config>
@@ -123,6 +123,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4a440f77-5a62-44cb-b9f0-03882c52c529"/>
+<entry key="file_store_id" type="xstring" value="0a69915c-3dd1-4127-b810-0741bff46f80"/>
 </config>
 </config>

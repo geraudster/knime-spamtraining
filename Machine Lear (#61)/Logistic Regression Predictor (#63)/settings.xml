@@ -22,7 +22,7 @@
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Logistic Regression Predictor"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -32,12 +32,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 6744, Cols: 32"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2000, Cols: 32"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b7ccfc77-8275-4ab4-b101-545718856e74"/>
+<entry key="file_store_id" type="xstring" value="1cb1c5e7-8879-4832-bc80-fd7e7887d03f"/>
 </config>
 </config>
