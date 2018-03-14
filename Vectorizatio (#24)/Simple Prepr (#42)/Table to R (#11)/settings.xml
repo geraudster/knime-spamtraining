@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="script" type="xstring" value="emails &lt;- knime.in%%00010%%00010library(tm)%%00010library(SnowballC)%%00010%%00010emailCorpus &lt;- Corpus(VectorSource(emails$text), readerControl = list(language = 'en'))%%00010%%00010emailCorpus &lt;- tm_map(emailCorpus, tolower)%%00010emailCorpus &lt;- tm_map(emailCorpus, stripWhitespace)%%00010emailCorpus &lt;- tm_map(emailCorpus, removePunctuation)%%00010emailCorpus &lt;- tm_map(emailCorpus, removeWords, stopwords(&quot;english&quot;))%%00010emailCorpus &lt;- tm_map(emailCorpus, stemDocument)%%00010%%00010dtm &lt;- DocumentTermMatrix(emailCorpus)%%00010%%00010dtmWithoutSparseTerms &lt;- removeSparseTerms(dtm, 0.95)%%00010%%00010emailsDf &lt;- as.data.frame(as.matrix(dtmWithoutSparseTerms))%%00010colnames(emailsDf) &lt;- make.names(colnames(emailsDf))%%00010%%00010v &lt;- sort(colSums(emailsDf), decreasing=TRUE)%%00010%%00010emailsTopTerms &lt;- emailsDf[, head(names(v),30)]%%00010%%00010emailsTopTerms$label &lt;- emails$label%%00010emailsTopTerms$full_text &lt;- emails$text%%00010%%00010emailsTopTerms%%00010"/>
+<entry key="script" type="xstring" value="emails &lt;- knime.in%%00010%%00010library(tm)%%00010library(SnowballC)%%00010%%00010emailCorpus &lt;- Corpus(VectorSource(emails$text), readerControl = list(language = 'en'))%%00010%%00010emailCorpus &lt;- tm_map(emailCorpus, tolower)%%00010emailCorpus &lt;- tm_map(emailCorpus, stripWhitespace)%%00010emailCorpus &lt;- tm_map(emailCorpus, removePunctuation)%%00010emailCorpus &lt;- tm_map(emailCorpus, removeWords, stopwords(&quot;english&quot;))%%00010emailCorpus &lt;- tm_map(emailCorpus, stemDocument)%%00010%%00010dtm &lt;- DocumentTermMatrix(emailCorpus)%%00010%%00010dtmWithoutSparseTerms &lt;- removeSparseTerms(dtm, 0.95)%%00010%%00010emailsDf &lt;- as.data.frame(as.matrix(dtmWithoutSparseTerms))%%00010colnames(emailsDf) &lt;- make.names(colnames(emailsDf))%%00010%%00010v &lt;- sort(colSums(emailsDf), decreasing=TRUE)%%00010%%00010emailsTopTerms &lt;- emailsDf[, head(names(v),30)]%%00010names(emailsTopTerms) &lt;- sub('^', 'term_', names(emailsTopTerms))%%00010%%00010emailsTopTerms$label &lt;- emails$label%%00010emailsTopTerms$full_text &lt;- emails$text%%00010%%00010emailsTopTerms%%00010"/>
 <entry key="templateUUID" type="xstring" isnull="true" value=""/>
 <entry key="version" type="xstring" value="version 1.x"/>
 <entry key="Output non numbers (NaN, Inf, -Inf) as missing cells" type="xboolean" value="false"/>
@@ -20,12 +20,12 @@
 <entry key="node-name" type="xstring" value="Table to R"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME R-Project nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.r"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070953"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.1.v201712211140"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Interactive R Statistics Integration"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.r.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070953"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.1.v201712211140"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table to R"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -43,6 +43,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8bffe59d-56b2-44f6-ba81-e3f31e3757b9"/>
+<entry key="file_store_id" type="xstring" value="0bb1e5da-5581-4bf3-bb6a-7920f6966f96"/>
 </config>
 </config>

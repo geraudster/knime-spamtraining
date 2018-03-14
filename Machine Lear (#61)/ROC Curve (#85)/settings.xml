@@ -6,27 +6,33 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="method" type="xstring" value="Relative"/>
-<entry key="samplingMethod" type="xstring" value="Stratified"/>
-<entry key="fraction" type="xdouble" value="1.0"/>
-<entry key="count" type="xint" value="100"/>
-<entry key="random_seed" type="xstring" isnull="true" value=""/>
-<entry key="class_column" type="xstring" value="label"/>
+<entry key="classColumn" type="xstring" value="label"/>
+<config key="positiveClass">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="spam"/>
+</config>
+</config>
+<config key="curves">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="P (label=spam)"/>
+</config>
+<entry key="maxPoints" type="xint" value="2000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.preproc.partition.PartitionNodeFactory"/>
-<entry key="node-name" type="xstring" value="Partitioning"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.viz.roc.ROCNodeFactory"/>
+<entry key="node-name" type="xstring" value="ROC Curve"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.2.v201802051350"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Partitioning"/>
+<entry key="name" type="xstring" value="ROC Curve"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -34,19 +40,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 10000, Cols: 45"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-<config key="port_2">
-<entry key="index" type="xint" value="2"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 45"/>
-<entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b501e647-b801-4f51-a8d6-b1fef2415c92"/>
+<entry key="file_store_id" type="xstring" value="b0d95398-ae19-4928-893f-b1803b5fed7b"/>
 </config>
 </config>

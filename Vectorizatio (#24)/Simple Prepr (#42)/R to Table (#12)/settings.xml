@@ -20,12 +20,12 @@
 <entry key="node-name" type="xstring" value="R to Table"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME R-Project nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.r"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070953"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.1.v201712211140"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Interactive R Statistics Integration"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.r.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070953"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.1.v201712211140"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="R to Table"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -41,6 +41,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e6db2976-9085-4623-b20f-1f52bc878a0a"/>
+<entry key="file_store_id" type="xstring" value="68d81c80-266a-4462-8a67-045fa4ca257e"/>
 </config>
 </config>

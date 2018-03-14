@@ -7,8 +7,8 @@
 </config>
 <config key="model">
 <entry key="has_custom_predicition_name" type="xboolean" value="false"/>
-<entry key="custom_prediction_name" type="xstring" isnull="true" value=""/>
-<entry key="include_probabilites" type="xboolean" value="false"/>
+<entry key="custom_prediction_name" type="xstring" value="Prediction (label)"/>
+<entry key="include_probabilites" type="xboolean" value="true"/>
 <entry key="propability_columns_suffix" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -17,12 +17,12 @@
 <entry key="node-name" type="xstring" value="Logistic Regression Predictor"/>
 <entry key="node-bundle-name" type="xstring" value="Logistic Regression for KNIME"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.logisticregression"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.0.v201711021634"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Logistic Regression Predictor"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -32,12 +32,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 2000, Cols: 32"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2000, Cols: 35"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="1cb1c5e7-8879-4832-bc80-fd7e7887d03f"/>
+<entry key="file_store_id" type="xstring" value="4fc9976d-2944-4d87-aadb-de3bbe2c5ec8"/>
 </config>
 </config>

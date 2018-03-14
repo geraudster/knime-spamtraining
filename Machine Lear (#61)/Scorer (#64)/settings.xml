@@ -36,31 +36,31 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Accuracy"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.8365"/>
+<entry key="value" type="xdouble" value="0.832"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Error"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.1635"/>
+<entry key="value" type="xdouble" value="0.168"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#Correct"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1673"/>
+<entry key="value" type="xint" value="1664"/>
 </config>
 <config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#False"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="327"/>
+<entry key="value" type="xint" value="336"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Cohen's kappa"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.6722027972027973"/>
+<entry key="value" type="xdouble" value="0.663648512695767"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -80,12 +80,12 @@
 <entry key="node-name" type="xstring" value="Scorer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.2.v201802051350"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Scorer"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -108,6 +108,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="a2737ed6-5a6f-4f65-886e-fce2520e8dc8"/>
+<entry key="file_store_id" type="xstring" value="309a557d-9952-482c-9b9d-76cfae5f1498"/>
 </config>
 </config>

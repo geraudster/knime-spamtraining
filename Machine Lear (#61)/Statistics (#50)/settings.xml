@@ -106,12 +106,12 @@
 <entry key="node-name" type="xstring" value="Statistics"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Statistic Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.stats"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.4.0.v201702101156"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.0.v201711131423"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Statistics"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -128,19 +128,19 @@
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 14, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 <config key="port_3">
 <entry key="index" type="xint" value="3"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 90, Cols: 28"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_3"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="db4c7825-89a6-4358-aa47-bd50d2158d5a"/>
+<entry key="file_store_id" type="xstring" value="dde5f69f-2009-4bf8-b71d-e9729f066108"/>
 </config>
 </config>
